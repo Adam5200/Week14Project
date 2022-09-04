@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -24,15 +25,31 @@
   color: white;
 }
 
+.img {
+  position: right;
+  float: right;
+  max-width: 100px;
+}
+
+.star {
+  background-color: yellow;
+}
+
+.card-body-synopsis {
+  max-width: 250px;
+  white-space: normal;
+}
+
+.card-body {
+  overflow-wrap: break-all;
+  white-space: pre;
+}
+
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-Stars {
+  position: right;
+  float: right;
 }
